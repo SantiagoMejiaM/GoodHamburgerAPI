@@ -3,7 +3,7 @@
 ### How to run and test the application:
 
 1) Clone the repository
-2) On the project root folder, run the following commands in order to create the docker images and containers necessary to execute the API:
+2) On the project root folder, run the following commands in order to create the docker images and container necessary to execute the API:
   - docker build -t goodhamburger-api .
   - docker-compose up
 3) Using a web browser or postman, you can send requests using the following urls:
