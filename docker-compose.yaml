@@ -1,0 +1,13 @@
+services: 
+  db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: api
+      POSTGRES_USER: user
+      POSTGRES_DB: GoodHamburger
+  app:
+    image: goodhamburger-api
+    ports:
+      - 11337:1337
+    depends_on:
+      - db
