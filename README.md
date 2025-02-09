@@ -11,5 +11,11 @@
   - GET all sandwiches http://localhost:11337/api/sandwiches
   - GET all extras http://localhost:11337/api/extras
   - POST create order http://localhost:11337/api/order
+      - Request body example for creating an order:
+        {
+          "sandwich" : "Burger",
+          "soft_drink" : "Coke",
+          "fries" : true
+        }
   - PUT update an order http://localhost:11337/api/order/{orderID}
   - DELETE an order http://localhost:11337/api/order/{orderID}
