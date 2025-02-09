@@ -8,7 +8,7 @@
   - docker-compose up
 3) Using a web browser or postman, you can send requests using the following urls:
   - GET all orders http://localhost:11337/api/order
-  - GET all sanwiches http://localhost:11337/api/sandwiches
+  - GET all sandwiches http://localhost:11337/api/sandwiches
   - GET all extras http://localhost:11337/api/extras
   - POST create order http://localhost:11337/api/order
   - PUT update an order http://localhost:11337/api/order/{orderID}
